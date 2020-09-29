@@ -1,4 +1,4 @@
-# wallabag - Android App [![Build Status](https://travis-ci.org/wallabag/android-app.svg?branch=master)](https://travis-ci.org/wallabag/android-app)
+# Playzia - Android App [![Build Status](https://travis-ci.org/wallabag/android-app.svg?branch=master)](https://travis-ci.org/wallabag/android-app)
 
 <img src="/readme/wallabag logo.png" align="left"
 width="200" hspace="10" vspace="10">
@@ -47,12 +47,12 @@ The android app lets you:
 
 ## Screenshots
 
-[<img src="/readme/Wallabag%20Reading%20List.png" align="left"
+[<img src="/Screenshots/Screenshot_register.jpg" align="left"
 width="200"
-    hspace="10" vspace="10">](/readme/Wallabag%20Reading%20List.png)
-[<img src="/readme/Wallabag%20Article%20View.png" align="center"
+    hspace="10" vspace="10">](/Screenshots/Screenshot_login.jpg)
+[<img src="/Screenshots/Screenshot_register.jpg" align="center"
 width="200"
-    hspace="10" vspace="10">](/readme/Wallabag%20Article%20View.png)
+    hspace="10" vspace="10">](/Screenshots/Screenshot_register.jpg)
 
 ## Permissions
 
