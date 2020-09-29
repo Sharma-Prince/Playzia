@@ -1,0 +1,41 @@
+class UserSerializer(serializers.ModelSerializer):
+    email = serializers.EmailField(
+        required=True,
+        validators=[UniqueValidator(queryset=User.objects.all())]
+    )
+    username = serializers.CharField(
+        validators=[UniqueValidator(queryset=User.objects.all())]
+    )
+    password = serializers.CharField(min_length=8)
+
+    class Meta:
+        model = User
+        fields = ('username', 'email', 'password')
+
+
+class PubgUserSerializer(serializers.ModelSerializer):
+
+    user = UserSerializer(required=True)
+
+    class Meta:
+        model = PubgUser
+        fields = ('firstName', 'lastName', 'phone', 'user')
+
+    def create(self, validated_data):
+        user_data = validated_data.pop('user')
+        user = User.objects.create_user(user_data['username'], user_data['email'], user_data['password'])
+        puser = PubgUser.objects.create(user=user, **validated_data)
+        Wallet.objects.create(user=user)
+        return "1"
+
+
+
+class UserRegister(APIView):
+
+    def post(self, request, format='json'):
+        serializer = PubgUserSerializer(data=request.data)
+        if serializer.is_valid():
+            value = serializer.create(validated_data=request.data)
+            return Response({"status": value, "msg": "Registration successful"})#, status=status.HTTP_201_CREATED
+        else:
+            return Response({"status" : "0", "error": serializer.errors.get("user")})#, status=status.HTTP_400_BAD_REQUEST

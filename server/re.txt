@@ -1,0 +1,17 @@
+asgiref==3.2.3
+certifi==2019.11.28
+chardet==3.0.4
+Django==3.0.3
+django-rest-auth==0.9.5
+djangorestframework==3.11.0
+freeze==1.0.10
+idna==2.9
+Naked==0.1.31
+pycryptodome==3.9.7
+pytz==2019.3
+PyYAML==5.3
+requests==2.23.0
+shellescape==3.8.1
+six==1.14.0
+sqlparse==0.3.1
+urllib3==1.25.8
