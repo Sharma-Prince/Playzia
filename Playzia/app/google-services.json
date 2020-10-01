@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "593391407245",
+    "firebase_url": "https://playzia-ab737.firebaseio.com",
+    "project_id": "playzia-ab737",
+    "storage_bucket": "playzia-ab737.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:593391407245:android:412d18f08d6ce8f839d2c4",
+        "android_client_info": {
+          "package_name": "playzia.com.playzia"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "593391407245-npcu238ipcnbaranerjlmi3ufh7tuqas.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "playzia.com.playzia",
+            "certificate_hash": "65391c34cd5e68038a3da793015289916819dea7"
+          }
+        },
+        {
+          "client_id": "593391407245-3tq2ipqaibetfg14r55dj5c47q93k4q7.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCuVt5qWYUXjAI2GZMSku_3VevLXjnF3J4"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "593391407245-3tq2ipqaibetfg14r55dj5c47q93k4q7.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

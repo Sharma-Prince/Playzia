@@ -1,0 +1,21 @@
+<resources>
+    <string name="app_name">PlayZia</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="title_activity_main">MainActivity</string>
+    <string name="sufficientBalanceText">You have sufficient balance to join this match.</string>
+    <string name="insufficientBalanceText">You have insufficient balance. Kindly add balance to wallet inorder to join this match.</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="upcomingIDPassText">Room ID and Password will be updated here before 15 minutes of Match Schedule Time.</string>
+    <string name="private_match_text">This match is private match. Users with access code can only participate. If you have got the access code, please enter it below.</string>
+    <string name="shareSub">Play PUBG &amp; Win Free Paytm Cash</string>
+    <string name="JoinMatchWarning">Make sure to join the Room before the Match Starting Time. Once the match starts, you won\'t be able to join.</string>
+    <string name="shareContent">Do you know you can win Free Paytm Cash by Playing PUBG? Yes, now get paid for every Kill. Not only this, if you get Chicken Dinner, you really win Big Prizes. Just Download &amp; Try PlayZia App: https://www.playzia.tk/</string>
+    <string name="rule"></string>
+    <string name="title_item_list">Items</string>
+    <string name="title_item_detail">Item Detail</string>
+    <string name="banner_ad_unit_id">ca-app-pub-3940256099942544/6300978111</string>
+    <string name="ban">ca-app-pub-4556656236597618/1790790015</string>
+</resources>
